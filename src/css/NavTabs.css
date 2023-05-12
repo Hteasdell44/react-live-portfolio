@@ -1,0 +1,40 @@
+.nav {
+
+    display: flex;
+    flex-direction: column;
+    right: 90vw;
+    position: absolute;
+    top: 35%;
+    height: 60vh;
+    font-size: 1.25vw;
+}
+
+.nav-item {
+    margin-bottom: 3vh;
+    border-radius: 30px;
+}
+
+.nav-item:hover {
+    background-color: magenta;
+}
+
+.nav-item {
+    background-color: magenta !important;
+}
+
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+@media screen and (max-width: 832px) {
+
+    .nav-item {
+
+        display: none;
+    }
+}
