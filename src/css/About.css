@@ -1,0 +1,53 @@
+#about {
+
+    background-color: white;
+    width: 80vw;
+    height: 60vh;
+    position: absolute;
+    left: 13vw;
+    bottom: 20vh;
+    border-radius: 30px;
+    text-align: center;
+    
+    
+}
+
+#about p {
+    
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    padding-top: 3vh;
+    width: 75vw;
+    color: black;
+    margin: auto;
+}
+
+@media screen and (max-width: 832px) {
+
+    #title {
+        font-size: 10vw;
+    }
+
+    #about {
+
+        background-color: white;
+        width: 80vw;
+        height: 85vh;
+        left: 10vw;
+        bottom: 5vh;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    #about p {
+    
+        display: flex;
+        justify-content: center;
+        font-size: 5vw;
+        padding-top: 4vh;
+        width: 75vw;
+        color: black;
+        margin: auto;
+    }
+}
