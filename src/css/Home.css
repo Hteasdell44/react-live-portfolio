@@ -1,45 +1,74 @@
+#body {
+    
+    min-height: 100vh;
+    height: fit-content;
+    width: 100vw;
+    background-color: black;
+}
+
+
+
 #logo {
 
   max-height: 10vw;
+  width: auto;
   display: block;
   margin: auto;
+
 }
 
 #hero {
-    height: 50vh;
+    
+    height: fit-content;
     width: 100vw;
-    padding-top: 12vh;
     display: flex;
     flex-direction: row;
+    gap: 5vw;
     justify-content: center;
-    margin-bottom: 0px;
+    align-items: center;
+    margin-top: 12vh;
 }
 
 #hero-left img {
 
-    margin-right: 35vw;
     width: 27vw;
+    display: block;
+    margin: auto;
+    margin-left: 15vw;
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px magenta;
 }
 
-.hero-text {
+.dynamic-text {
 
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-top: -3vh;
-    left: 53vw;
+    background-color: white;
+    color: magenta;
+    font-size: 2.5vw;
+    line-height: 1.5em;
+    display: block;
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
 
+#mobile-dynamic {
+
+    display: none;
 }
 
 .hero-text h1 {
     font-size: 2.5vw;
-    margin-bottom: 7vh;
     line-height: 1.5em;
+    margin-bottom: 3vh;
 }
 
 #hello-text {
 
-    margin-left: -24vw;
+    margin-left: -21.5vw;
 }
 
 #tool-cycler {
@@ -49,13 +78,19 @@
     margin-right: 5px;
 }
 
-#hero-button-holder {
+#hero-button-holder a {
 
-    position: absolute;
-    bottom: 25vh;
-    right: 11vw;
-    display: flex;
-    flex-direction: row;
+    background-color: magenta;
+    border: magenta;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 2vw;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 2vh;
+    padding: 2vh;
+    text-decoration: none;
 }
 
 .hero-button {
@@ -63,8 +98,7 @@
     background-color: magenta;
     border: magenta;
     color: white;
-    width: 10vw;
-    height: 7vh;
+    text-align: center;
     border-radius: 30px;
     margin-right: 2vw;
     font-size: 1.5vw;
@@ -75,22 +109,32 @@
 .hero-button:hover {
 
     cursor: pointer;
-    font-size: 1.7vw;
+    scale: 1.025;
 }
 
-@media screen and (max-width: 2400px) {
-    
-    #hero-left img {
+.mobile-logo {
+    display: none !important;
+}
 
-        width: 30vw;
+.dynamic-text {
+
+    margin-bottom: 10vh;
+}
+
+@media screen and (min-width: 768px)  and (max-width: 992px) {
+
+    .title {
+
+        font-size: xxx-large;
+    }
+
+    #projects .title {
+
+        font-size: xxx-large;
     }
 }
 
-@media screen and (max-width: 832px) {
-
-    body {
-        background-color: blue;
-    }
+@media screen and (max-width: 992px) {
 
     #logo {
 
@@ -99,20 +143,31 @@
         margin: auto;
     }
 
+    .mobile-logo {
+
+        display: block !important;
+        
+    }
+
+    .desktop-logo {
+
+        display: none !important;
+    }
+
+
     #hero {
         
-        width: 100vw;
-        position: absolute;
-        left: 0;
+        min-height: none;
+        height: fit-content !important;
 
     }
     
     #hero-left img {
 
+        min-width: none !important;
+        width: 80vw;
+        display: block;
         margin: auto;
-        width: 70vw;
-        margin-top: -5vh;
-        
     }
 
     .hero-text {
@@ -121,40 +176,138 @@
         flex-direction: column;
         width: 100vw;
         margin: auto;
-        margin-top: 33vh;
         left: 11vw;
     }
 
     .hero-text h1 {
-        font-size: 8vw;
-        margin-bottom: 1vh;
-        line-height: 1.5em;
+        font-size: xx-large;
     }
 
     #hero-button-holder {
 
-        position: absolute;
-        bottom: -30vh;
-        left: 6vw;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
+        gap: 5vw;
+        
     }
 
-    .hero-button {
+    #hero-button-holder a {
 
         background-color: magenta;
         border: magenta;
         color: white;
-        width: 27vw;
-        height: 7vh;
+        padding: 3vw;
         border-radius: 30px;
-        margin-right: 4vw;
-        font-size: 5vw;
         font-weight: bold;
-        margin-top: 2vh;
+        text-decoration: none;
+        font-size: large;
+    }
+
+
+    #body {
+
+        flex-direction: column;
+        height: fit-content !important;
+        padding-bottom: 5vh !important;
+    }
+
+    #hero {
+
+        display: block;
+        margin-top: 5vh !important;
+    }
+
+    
+
+    #hero-text h1 {
+
+        text-align: center;
+    }
+
+    #hello-text {
+        margin: 0 !important;
+    }
+
+    
+    .hero-heading {
+        text-align: center;
+    }
+
+
+    #hero-button-holder {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #second-heading {
+
+        display: inline;
+    }
+
+    .dynamic-text {
+
+        display: inline !important;
+        font-size: x-large !important;
+    }
+
+    #desktop-dynamic {
+
+        display: none !important;
     }
 
 
 }
+
+@media screen and (min-height: 1181px) {
+
+    .title {
+
+        font-size: 10vw;
+    }
+
+    #logo {
+
+        max-height: none !important;
+    }
+
+    #hero {
+
+        flex-wrap: wrap;
+    }
+
+    #hero-left img {
+
+        width: 60vw;
+        margin-right: 10vh;
+        margin-top: -10vh;
+    }
+
+    .hero-text h1 {
+        font-size: xxx-large;
+    }
+    
+    #hello-text {
+        
+        margin-top: -5vh;
+        margin-left: 0vh;
+    }
+
+    .dynamic-text {
+        font-size: xxx-large;
+        display: table;
+        margin: 0 auto;
+        margin-bottom: 7vh;
+        
+    }
+
+    #hero-button-holder {
+
+        margin-left: 13vw;
+        margin-bottom: 8vh;
+    }
+
+}
+
+
 

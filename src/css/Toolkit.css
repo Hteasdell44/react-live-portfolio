@@ -1,3 +1,9 @@
+#toolkit-container {
+
+    height: 100vh;
+    background-color: black;
+}
+
 div h1 {
 
     display: flex;
@@ -10,10 +16,10 @@ div h1 {
 
     background-color: white;
     width: 80vw;
-    height: 60vh;
-    position: absolute;
-    left: 13vw;
-    bottom: 20vh;
+    height: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 8vh;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -34,29 +40,25 @@ div h1 {
     margin-right: 7vw;
     margin-left: 7vw;
     left: 10vw;
+    margin-bottom: 3vh;
+
 }
 
 .tool-list h2 {
 
     color: black;
     font-size: 2vw;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 7vh;
 }
 
-.tool {
+@media screen and (max-width: 768px) {
 
-    text-shadow: 2px 2px 4px grey;
-}
+    #toolkit-container {
+        min-height: 100vh;
+        height: fit-content;
+    }
 
-.tool:hover {
-
-    color:magenta;
-}
-
-@media screen and (max-width: 832px) {
-
-    #title {
+    .title {
         font-size: 10vw;
     }
 
@@ -64,8 +66,7 @@ div h1 {
 
         background-color: white;
         width: 80vw;
-        height: 85vh;
-        left: 10vw;
+        height: fit-content;
         bottom: 5vh;
         border-radius: 30px;
         text-align: center;
@@ -78,16 +79,45 @@ div h1 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 6vh;
         margin-right: 7vw;
         margin-left: 7vw;
         left: 10vw;
         width: 10vw;
+        padding-top: 5vh;
+        padding-bottom: 2vh;
     }
 
     .tool-list h2 {
         
         font-size: 5vw;
-        margin-bottom: 12vh;
+        margin-bottom: 5vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    #tool-holder {
+        width: fit-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    .tool-list h2 {
+
+        font-size: xx-large;
+        margin-bottom: 5vh;
+    }
+}
+
+@media screen and (min-height: 1100px) {
+
+    #tool-holder {
+        width: fit-content;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    .tool-list h2 {
+
+        font-size: xxx-large;
     }
 }

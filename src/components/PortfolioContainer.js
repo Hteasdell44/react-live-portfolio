@@ -8,26 +8,6 @@ import Projects from './pages/Projects';
 
 export default function PortfolioContainer() {
 
-  const [currentPage, setCurrentPage] = useState('Home');
-
-  const renderPage = () => {
-
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Toolkit') {
-      return <Toolkit />;
-    }
-    if (currentPage === 'Projects') {
-      return <Projects />;
-    }
-    return <Contact />;
-
-  };
-
   const bodyStyle = {
     color: "white",
     backgroundColor: "black",
@@ -35,15 +15,19 @@ export default function PortfolioContainer() {
     height: "100vh",
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  // const handlePageChange = (page) => setCurrentPage(page);
 
   return (
 
     <div style={bodyStyle} >
 
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <NavTabs />
 
-      {renderPage()}
+      <Home/>
+      <About/>
+      <Toolkit/>
+      <Projects/>
+      <Contact/>
       
     </div>
   );

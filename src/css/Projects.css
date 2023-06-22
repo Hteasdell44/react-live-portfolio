@@ -1,37 +1,66 @@
 #projects {
-
-    height: 100vh;
+    background-color: black;
+    min-height: 100vh;
+    height: fit-content;
     width: 100vw;
 }
 
 #projects h1 {
 
-    display: flex;
     justify-content: center;
     font-size: 3vw;
-    padding-top: 3vh;
 }
 
 #project-holder {
 
+    width: auto;
     display: flex;
     flex-direction: row;
-    height: 75vh;
-    
+    justify-content: center;
+    margin-top: 8vh;
+    gap: 4vw;
+}
+
+.mobile-project-holder {
+    display: none !important;
+}
+
+.mobile-paginators {
+
+    display: none !important;
 }
 
 #projects-left {
-
-    position: absolute;
-    width: 38vw;
-    height: 60vh;
-    background-color: white;
-    left: 12vw;
-    margin-top: 10vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
     border-radius: 40px;
-    margin-left: 1vw;
+    margin-left: 4vw;
 
+}
+
+#projects-right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4vw;
+    background-color: white;
+    border-radius: 40px;
+    
+}
+
+#projects-left:hover {
+
+    scale: 1.025;
+}
+
+#projects-right:hover {
+
+    scale: 1.025;
 }
 
 #projects-left img {
@@ -40,46 +69,47 @@
     height: 40vh;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
+    border-bottom: 4px solid black;
 
+}
+
+#projects-left a {
+
+    display: flex;
+    flex-direction: column;
 }
 
 #left-title {
 
-    
-    position: absolute;
-    left: 13vw;
-    bottom: 12vh;
-    color: black;
 
+    color: black;
+    width: 26vw;
+    display: block;
+    text-align: center;
+    font-size: xxx-large !important;
 }
 
 #left-label {
     
-    position: absolute;
-    left: .5vw;
     text-align: center;
-    bottom: 4vh;
     width: 37vw;
     color: black;
     font-size: 1.2vw;
     background-color: lightgray;
+    margin-top: 3vh;
 }
 
 #projects-left ul {
 
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 7vw;
-    bottom: -.25vh;
+    gap: 3vw;
     color: black;
     list-style-type: none;
 }
 
 #projects-left ul li {
 
-
-    margin-right: 4vw;
     text-decoration: underline;
     font-size: 1.3vw;
 }
@@ -90,35 +120,21 @@
     color: magenta;
 }
 
-#projects-right {
-
-    position: absolute;
-    width: 38vw;
-    height: 60vh;
-    left: 52vw;
-    background-color: white;
-    margin-top: 10vh;
-    border-radius: 40px;
-    margin-left: 1vw;
-}
 
 #projects-right ul {
 
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 7vw;
-    bottom: -.25vh;
+    gap: 3vw;
     color: black;
     list-style-type: none;
-    font-size: 1.3vw;
 }
 
 #projects-right ul li {
 
 
-    margin-right: 4vw;
     text-decoration: underline;
+    font-size: 1.3vw;
 }
 
 #projects-right ul li a {
@@ -133,120 +149,287 @@
     height: 40vh;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
+    border-bottom: 4px solid black;
 }
-
-
 
 #right-title {
 
-    
-    position: absolute;
-    left: 4vw;
-    bottom: 12vh;
     color: black;
+    width: 38vw;
+    text-align: center;
+    font-size: xxx-large !important;
 
 }
 
 #right-label {
     
-    position: absolute;
-    left: .5vw;
     text-align: center;
-    bottom: 4vh;
     width: 37vw;
     color: black;
     font-size: 1.2vw;
     background-color: lightgray;
+    margin-top: 3vh;
 }
 
-@media screen and (max-width: 832px) {
+#paginators {
 
-    #projects #title {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.project-paginator {
+
+    padding: 1vh;
+    color: white;
+    background-color: magenta;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.project-paginator-back {
+
+    padding: 1vh;
+    color: white;
+    background-color: magenta;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.project-paginator:hover {
+    scale: 1.25;
+}
+
+.project-paginator-back:hover {
+    scale: 1.25;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .desktop-project-holder {
+
+        display: none !important;
+    }
+
+    .mobile-project-holder {
+        display: none !important;
+    }
+
+    .project-paginator:hover {
+        scale: none;
+    }
+    
+    .project-paginator-back:hover {
+        scale: none;
+    }
+
+    .desktop-paginators {
+
+        display: none !important;
+    }
+
+    .mobile-paginators {
+
+        display: flex !important;
+    }
+
+    .mobile-project-holder {
+
+        display: block !important;
+    }
+
+    #projects .title {
 
         font-size: 10vw;
     }
 
     #project-holder {
 
-        display: flex;
         flex-direction: column;
-        height: 75vh;
-        
     }
 
     #projects-left {
-
-        margin: auto;
-        margin-top: 3vh;
         width: 80vw;
-        height: 40vh;
+        display: block;
+        margin: auto;
+        height: fit-content;
+        padding-bottom: 1vh;
     }
 
     #projects-left img {
-
-        width: 80vw;
-        height: 30vh;
-    }
-
-    #projects-left ul {
-
-        display: none;
-    }
-
-    #left-title {
-
-        left: 31vw;
-        top: 27vh;
-    }
-
-    #left-label {
-
-        font-size: 4vw;
-        width: 70vw;
-        left: 5vw;
-        top: 33vh;
-        height: 6vh;
-    }
-
-    #projects h1 {
-
-        font-size: 5vw;
+        width: 100%;
     }
 
     #projects-right {
 
-        margin: auto;
-        left: 12vw;
-        margin-top: 47vh;
         width: 80vw;
-        height: 40vh;
-        
+        display: block;
+        margin: auto;
+        height: fit-content;
+        padding-bottom: 1vh;
     }
 
     #projects-right img {
-
-        width: 80vw;
-        height: 30vh;
+        width: 100%;
     }
 
-    #right-title {
+    #left-title {
+        font-size: large !important;
+        background-color: white;
+        width: 100%;
+    }
 
-        left: 18vw;
-        top: 27vh;
+    #left-label {
+
+        font-size: medium;
+        width: 100%;
     }
 
     #right-label {
 
-        font-size: 3vw;
-        width: 70vw;
-        left: 5vw;
-        top: 33vh;
-        height: 6.25vh;
+        font-size: medium;
+        width: 100%;
+    }
+
+    #projects-left ul li {
+
+        text-decoration: underline;
+        font-size: medium;
+    }
+
+    #projects-right ul li {
+
+        text-decoration: underline;
+        font-size: medium;
+    }
+
+    #right-title {
+        font-size: large !important;
+        background-color: white;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (min-height: 1100px) {
+    
+    .desktop-project-holder {
+
+        display: none !important;
+    }
+
+    .mobile-project-holder {
+        display: none !important;
+    }
+
+    .project-paginator:hover {
+        scale: none;
+    }
+    
+    .project-paginator-back:hover {
+        scale: none;
+    }
+
+    .desktop-paginators {
+
+        display: none !important;
+    }
+
+    .mobile-paginators {
+
+        display: flex !important;
+    }
+
+    .mobile-project-holder {
+
+        display: block !important;
+    }
+
+    #projects .title {
+
+        font-size: 10vw;
+    }
+
+    #project-holder {
+
+        flex-direction: column;
+    }
+
+    #projects-left {
+        width: 80vw;
+        display: block;
+        margin: auto;
+        height: fit-content;
+        padding-bottom: 1vh;
+    }
+
+    #projects-left img {
+        width: 100%;
+    }
+
+    #projects-right {
+
+        width: 80vw;
+        display: block;
+        margin: auto;
+        height: fit-content;
+        padding-bottom: 1vh;
+    }
+
+    #projects-right img {
+        width: 100%;
+    }
+
+    #left-title {
+        font-size: xxx-large !important;
+        background-color: white;
+        width: 100%;
+    }
+
+    #left-label {
+
+        font-size: xx-large;
+        width: 100%;
+    }
+
+    #right-label {
+
+        font-size: xx-large;
+        width: 100%;
+    }
+
+    #projects-left ul {
+
+        margin-left: 15vw;
     }
 
     #projects-right ul {
 
-        display: none;
+        margin-left: 15vw;
     }
 
+    #projects-left ul li {
+
+        text-decoration: underline;
+        font-size: xx-large;
+    }
+
+    #projects-right ul li {
+
+        text-decoration: underline;
+        font-size: xx-large;
+    }
+
+    #right-title {
+        font-size: xxx-large !important;
+        background-color: white;
+        width: 100%;
+
+    }
 }
