@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/react-live-portfolio/static/css/main.c5f5a21b.css",
-    "main.js": "/react-live-portfolio/static/js/main.436a2e34.js",
+    "main.css": "/react-live-portfolio/static/css/main.087d6828.css",
+    "main.js": "/react-live-portfolio/static/js/main.1a4f6a3f.js",
+    "static/media/headshot.png": "/react-live-portfolio/static/media/headshot.171a0d519b2c40b50626.png",
+    "static/media/hush-puppy-screenshot.png": "/react-live-portfolio/static/media/hush-puppy-screenshot.7d8b7da1a4730746bb8b.png",
     "static/media/weather-forecast.png": "/react-live-portfolio/static/media/weather-forecast.8ba02f1a2795669dc154.png",
+    "static/media/hawkeye-screenshot.png": "/react-live-portfolio/static/media/hawkeye-screenshot.12602f56dfe9e7cd7505.png",
     "static/media/placeholder-image.png": "/react-live-portfolio/static/media/placeholder-image.1bab0212315e7bd755b2.png",
+    "static/media/coding-gauntlet-screenshot.png": "/react-live-portfolio/static/media/coding-gauntlet-screenshot.8c7215affa0ca8f0731c.png",
+    "static/media/note-taker-screenshot.png": "/react-live-portfolio/static/media/note-taker-screenshot.f22097b29ee364c53561.png",
     "static/media/white-logo.png": "/react-live-portfolio/static/media/white-logo.ee232a80b6d0ce66b910.png",
     "static/media/wall-ball-screenshot.png": "/react-live-portfolio/static/media/wall-ball-screenshot.1bbd6fa8b121d66cf833.png",
     "index.html": "/react-live-portfolio/index.html",
-    "main.c5f5a21b.css.map": "/react-live-portfolio/static/css/main.c5f5a21b.css.map",
-    "main.436a2e34.js.map": "/react-live-portfolio/static/js/main.436a2e34.js.map"
+    "main.087d6828.css.map": "/react-live-portfolio/static/css/main.087d6828.css.map",
+    "main.1a4f6a3f.js.map": "/react-live-portfolio/static/js/main.1a4f6a3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5f5a21b.css",
-    "static/js/main.436a2e34.js"
+    "static/css/main.087d6828.css",
+    "static/js/main.1a4f6a3f.js"
   ]
 }
