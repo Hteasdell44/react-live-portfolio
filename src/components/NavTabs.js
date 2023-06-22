@@ -1,61 +1,32 @@
 import React from 'react';
 import "../css/NavTabs.css";
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs() {
 
   return (
 
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
+    <ul className="nav">
 
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
+      <a href="#logo">
+        <li className="nav-item">Home</li>
+      </a>
 
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#toolkit"
-          onClick={() => handlePageChange('Toolkit')}
+      <a href="#about-container">
+        <li className="nav-item">About</li>
+      </a>
 
-          className={currentPage === 'Toolkit' ? 'nav-link active' : 'nav-link'}
-        >
-          Toolkit
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#projects"
-          onClick={() => handlePageChange('Projects')}
+      <a href="#toolkit-container">
+        <li className="nav-item">Toolkit</li>
+      </a>
 
-          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
-        >
-          Projects
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
+      <a href="#projects">
+        <li className="nav-item">Projects</li>
+      </a>
 
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
+      <a href="#contact">
+        <li className="nav-item">Contact</li>
+      </a>
+    
     </ul>
 
   );

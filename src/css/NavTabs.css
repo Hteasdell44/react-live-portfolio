@@ -2,11 +2,17 @@
 
     display: flex;
     flex-direction: column;
-    right: 90vw;
-    position: absolute;
+    right: 93vw;
+    position: fixed;
     top: 35%;
     height: 60vh;
     font-size: 1.25vw;
+}
+
+ul a {
+
+    text-decoration: none;
+    color: white;
 }
 
 .nav-item {
@@ -20,19 +26,36 @@
 
 .nav-item {
     background-color: magenta !important;
+    padding: 1vh;
+    text-align: center;
 }
 
 
 .nav-item a {
     color: white;
+    text-decoration: none;
 }
 
 .nav-item a:hover {
     color: white;
+    
 }
 
-@media screen and (max-width: 832px) {
+.nav-item:hover {
 
+    scale: 1.025;
+}
+
+@media screen and (max-width: 992px) {
+
+    .nav-item {
+
+        display: none;
+    }
+}
+
+@media screen and (min-height: 1100px) {
+    
     .nav-item {
 
         display: none;
