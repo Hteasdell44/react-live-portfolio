@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/react-live-portfolio/static/css/main.087d6828.css",
-    "main.js": "/react-live-portfolio/static/js/main.78afab16.js",
+    "main.js": "/react-live-portfolio/static/js/main.666fd135.js",
+    "static/media/htjobboard-screenshot-mobile.jpg": "/react-live-portfolio/static/media/htjobboard-screenshot-mobile.b0927b6f01327e89b223.jpg",
     "static/media/headshot.png": "/react-live-portfolio/static/media/headshot.171a0d519b2c40b50626.png",
     "static/media/hush-puppy-screenshot.png": "/react-live-portfolio/static/media/hush-puppy-screenshot.7d8b7da1a4730746bb8b.png",
     "static/media/weather-forecast.png": "/react-live-portfolio/static/media/weather-forecast.8ba02f1a2795669dc154.png",
@@ -14,10 +15,10 @@
     "static/media/wall-ball-screenshot.png": "/react-live-portfolio/static/media/wall-ball-screenshot.1bbd6fa8b121d66cf833.png",
     "index.html": "/react-live-portfolio/index.html",
     "main.087d6828.css.map": "/react-live-portfolio/static/css/main.087d6828.css.map",
-    "main.78afab16.js.map": "/react-live-portfolio/static/js/main.78afab16.js.map"
+    "main.666fd135.js.map": "/react-live-portfolio/static/js/main.666fd135.js.map"
   },
   "entrypoints": [
     "static/css/main.087d6828.css",
-    "static/js/main.78afab16.js"
+    "static/js/main.666fd135.js"
   ]
 }
