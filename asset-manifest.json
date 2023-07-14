@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/react-live-portfolio/static/css/main.087d6828.css",
-    "main.js": "/react-live-portfolio/static/js/main.b1f30b5c.js",
+    "main.js": "/react-live-portfolio/static/js/main.6a7e91e3.js",
     "static/media/headshot.png": "/react-live-portfolio/static/media/headshot.171a0d519b2c40b50626.png",
     "static/media/hush-puppy-screenshot.png": "/react-live-portfolio/static/media/hush-puppy-screenshot.7d8b7da1a4730746bb8b.png",
+    "static/media/gauntlet-screenshot-mobile.jpg": "/react-live-portfolio/static/media/gauntlet-screenshot-mobile.0b5939e58fcc4441463e.jpg",
     "static/media/hushpuppy-screenshot-mobile.jpg": "/react-live-portfolio/static/media/hushpuppy-screenshot-mobile.6ecad18cf11825cd4085.jpg",
     "static/media/hawkeye-screenshot-mobile.jpg": "/react-live-portfolio/static/media/hawkeye-screenshot-mobile.aedc6eed5aafb2114563.jpg",
     "static/media/htjobboard-screenshot-mobile.jpg": "/react-live-portfolio/static/media/htjobboard-screenshot-mobile.ac4c79908d8cf8fceba6.jpg",
     "static/media/weather-forecast.png": "/react-live-portfolio/static/media/weather-forecast.8ba02f1a2795669dc154.png",
     "static/media/hawkeye-screenshot.png": "/react-live-portfolio/static/media/hawkeye-screenshot.12602f56dfe9e7cd7505.png",
     "static/media/htjobboard-screenshot.png": "/react-live-portfolio/static/media/htjobboard-screenshot.eb6e4b8dd3b8567ae574.png",
+    "static/media/note-taker-mobile.jpg": "/react-live-portfolio/static/media/note-taker-mobile.0cb0fa6dc0a9e1969e96.jpg",
     "static/media/placeholder-image.png": "/react-live-portfolio/static/media/placeholder-image.1bab0212315e7bd755b2.png",
     "static/media/coding-gauntlet-screenshot.png": "/react-live-portfolio/static/media/coding-gauntlet-screenshot.8c7215affa0ca8f0731c.png",
     "static/media/note-taker-screenshot.png": "/react-live-portfolio/static/media/note-taker-screenshot.f22097b29ee364c53561.png",
@@ -17,10 +19,10 @@
     "static/media/wall-ball-screenshot.png": "/react-live-portfolio/static/media/wall-ball-screenshot.1bbd6fa8b121d66cf833.png",
     "index.html": "/react-live-portfolio/index.html",
     "main.087d6828.css.map": "/react-live-portfolio/static/css/main.087d6828.css.map",
-    "main.b1f30b5c.js.map": "/react-live-portfolio/static/js/main.b1f30b5c.js.map"
+    "main.6a7e91e3.js.map": "/react-live-portfolio/static/js/main.6a7e91e3.js.map"
   },
   "entrypoints": [
     "static/css/main.087d6828.css",
-    "static/js/main.b1f30b5c.js"
+    "static/js/main.6a7e91e3.js"
   ]
 }
