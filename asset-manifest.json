@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-live-portfolio/static/css/main.087d6828.css",
-    "main.js": "/react-live-portfolio/static/js/main.79abe3f1.js",
+    "main.css": "/react-live-portfolio/static/css/main.befc5f72.css",
+    "main.js": "/react-live-portfolio/static/js/main.a55fdfd5.js",
     "static/media/headshot.png": "/react-live-portfolio/static/media/headshot.171a0d519b2c40b50626.png",
     "static/media/hush-puppy-screenshot.png": "/react-live-portfolio/static/media/hush-puppy-screenshot.7d8b7da1a4730746bb8b.png",
     "static/media/gauntlet-screenshot-mobile.jpg": "/react-live-portfolio/static/media/gauntlet-screenshot-mobile.0b5939e58fcc4441463e.jpg",
@@ -19,11 +19,11 @@
     "static/media/white-logo.png": "/react-live-portfolio/static/media/white-logo.ee232a80b6d0ce66b910.png",
     "static/media/wall-ball-screenshot.png": "/react-live-portfolio/static/media/wall-ball-screenshot.1bbd6fa8b121d66cf833.png",
     "index.html": "/react-live-portfolio/index.html",
-    "main.087d6828.css.map": "/react-live-portfolio/static/css/main.087d6828.css.map",
-    "main.79abe3f1.js.map": "/react-live-portfolio/static/js/main.79abe3f1.js.map"
+    "main.befc5f72.css.map": "/react-live-portfolio/static/css/main.befc5f72.css.map",
+    "main.a55fdfd5.js.map": "/react-live-portfolio/static/js/main.a55fdfd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.087d6828.css",
-    "static/js/main.79abe3f1.js"
+    "static/css/main.befc5f72.css",
+    "static/js/main.a55fdfd5.js"
   ]
 }
