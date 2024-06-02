@@ -7,7 +7,9 @@
     top: 35%;
     height: 60vh;
     font-size: 1.25vw;
+    flex-wrap: nowrap !important; 
 }
+
 
 ul a {
 

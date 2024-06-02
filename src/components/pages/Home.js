@@ -7,7 +7,7 @@ import "../../css/Home.css";
 export default function Home() {
 
 
-    const toolList = ['React', 'JS', 'SQL', 'NoSQL', 'APIs', 'Node.js', 'Express', 'HTML', 'CSS', 'Tailwind', 'GraphQL', 'Shopify', 'Stripe'];
+    const toolList = ['React', 'JS', 'Java', 'Angular', 'SQL', 'APIs', 'Node', 'Express', 'HTML', 'CSS', 'Tailwind', 'GraphQL', 'Shopify', 'Stripe'];
 
     const [toggle, setToggle] = useState(0);
 
@@ -60,7 +60,7 @@ export default function Home() {
 
               <div id="hero-button-holder">
 
-                  <a href="https://drive.google.com/file/d/1j3fH-dHo9YyRr_a0jr85Z-VU2msPTGjQ/view?usp=sharing" target="_blank" rel="noreferrer">Resumé</a>
+                  <a href="https://drive.google.com/file/d/1gvDsjlu0chRww5EO79JnesYD-FAmijwD/view?usp=drive_link" target="_blank" rel="noreferrer">Resumé</a>
       
                   <a href="https://www.linkedin.com/in/hteasdell" target="_blank" rel="noreferrer">
                       LinkedIn
