@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import "../../css/Projects.css";
 import hushPuppyPng from "../../img/hush-puppy-screenshot.png";
+import hushpuppyMobilePng from "../../img/hushpuppy-screenshot-mobile.jpg"
 import hawkeyePng from "../../img/hawkeye-screenshot.png";
+import hawkeyeMobilePng from "../../img/hawkeye-screenshot-mobile.jpg"
 import wallBallPng from "../../img/wall-ball-screenshot.png";
 import forecastPng from "../../img/weather-forecast.png";
+import forecastMobilePng from "../../img/weather-forecast-mobile.jpg"
 import gauntletPng from "../../img/coding-gauntlet-screenshot.png";
+import gauntletMobilePng from "../../img/gauntlet-screenshot-mobile.jpg"
 import noteTakerPng from "../../img/note-taker-screenshot.png";
+import noteTakerMobilePng from "../../img/note-taker-mobile.jpg"
+import htjobboardPng from "../../img/htjobboard-screenshot.png"
+import htjobboardMobilePng from "../../img/htjobboard-screenshot-mobile.jpg"
 
 export default function Projects() {
 
@@ -75,17 +82,17 @@ export default function Projects() {
 
           <div id="projects-left">
 
-              <a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">
-                  <img src={hushPuppyPng} alt=""/>
+              <a href="https://ht-jobs-4a553258d208.herokuapp.com/" target="_blank" rel="noreferrer">
+                  <img src={htjobboardPng} alt=""/>
               </a>
 
-                <h1 id="left-title">The Hush Puppy Co</h1>
+                <h1 id="left-title">HT Job Board</h1>
                 
-                <p id="left-label">A fully functional eCommerce site and blog for owners of dogs with Separation Anxiety, built with the MERN stack. </p>
+                <p id="left-label">A job board application that connects employers with job seekers, built with Angular, Spring Boot, and MongoDB. </p>
 
                 <ul>
-                  <li><a href="https://github.com/Hteasdell44/hush-puppy-co" target="_blank" rel="noreferrer">Github Repo</a></li>
-                  <li><a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
+                  <li><a href="https://github.com/Hteasdell44/ht-job-board" target="_blank" rel="noreferrer">Github Repo</a></li>
+                  <li><a href="https://ht-jobs-4a553258d208.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
                 </ul>
 
           </div>
@@ -112,20 +119,20 @@ export default function Projects() {
 
       {toggler == 1 && (<div id="project-holder" className='desktop-project-holder'>
 
-          <div id="projects-left">
+        <div id="projects-left">
 
-              <a href="https://hteasdell44.github.io/wall-ball/" target="_blank" rel="noreferrer">
-                  <img src={wallBallPng} alt=""/>
-              </a>
+          <a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">
+              <img src={hushPuppyPng} alt=""/>
+          </a>
 
-                <h1 id="left-title">Wall Ball</h1>
-                
-                <p id="left-label">This bubble blast inspired game was built with JavaScript, HTML, and CSS. </p>
+            <h1 id="left-title">The Hush Puppy Co</h1>
+            
+            <p id="left-label">A fully functional eCommerce site and blog for owners of dogs with Separation Anxiety, built with the MERN stack. </p>
 
-                <ul>
-                  <li><a href="https://github.com/Hteasdell44/wall-ball" target="_blank" rel="noreferrer">Github Repo</a></li>
-                  <li><a href="https://hteasdell44.github.io/wall-ball/" target="_blank" rel="noreferrer">Deployed Application</a></li>
-                </ul>
+            <ul>
+              <li><a href="https://github.com/Hteasdell44/hush-puppy-co" target="_blank" rel="noreferrer">Github Repo</a></li>
+              <li><a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
+            </ul>
 
           </div>
 
@@ -192,20 +199,20 @@ export default function Projects() {
 
       {toggler == 0 && (<div id="project-holder" className='mobile-project-holder'>
 
-          <div id="projects-left">
+        <div id="projects-left">
 
-              <a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">
-                  <img src={hushPuppyPng} alt=""/>
-              </a>
+          <a href="https://ht-jobs-4a553258d208.herokuapp.com/" target="_blank" rel="noreferrer">
+              <img src={htjobboardMobilePng} alt=""/>
+          </a>
 
-                <h1 id="left-title">The Hush Puppy Co</h1>
-                
-                <p id="left-label">A fully functional eCommerce site and blog for owners of dogs with Separation Anxiety, built with the MERN stack. </p>
+            <h1 id="left-title">HT Job Board</h1>
+            
+            <p id="left-label">A job board application that connects employers with job seekers, built with Angular, Spring Boot, and MongoDB. </p>
 
-                <ul>
-                  <li><a href="https://github.com/Hteasdell44/hush-puppy-co" target="_blank" rel="noreferrer">Github Repo</a></li>
-                  <li><a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
-                </ul>
+            <ul>
+              <li><a href="https://github.com/Hteasdell44/ht-job-board" target="_blank" rel="noreferrer">Github Repo</a></li>
+              <li><a href="https://ht-jobs-4a553258d208.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
+            </ul>
 
           </div>
 
@@ -216,7 +223,7 @@ export default function Projects() {
       <div id="projects-right" >
 
           <a href="https://hawkeye-student-data-portal-32f19e354af5.herokuapp.com/" target="_blank" rel="noreferrer">
-            <img src={hawkeyePng} alt="" id="forecast-img"/>
+            <img src={hawkeyeMobilePng} alt="" id="forecast-img"/>
           </a>
 
           <h1 id="right-title">Hawkeye Student Data Portal</h1>
@@ -234,22 +241,22 @@ export default function Projects() {
 
       {toggler == 2 && (<div id="project-holder" className='mobile-project-holder'>
 
-          <div id="projects-left">
+        <div id="projects-left">
 
-              <a href="https://hteasdell44.github.io/wall-ball/" target="_blank" rel="noreferrer">
-                  <img src={wallBallPng} alt=""/>
-              </a>
+          <a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">
+              <img src={hushpuppyMobilePng} alt=""/>
+          </a>
 
-                <h1 id="left-title">Wall Ball</h1>
-                
-                <p id="left-label">This bubble blast inspired game was built with JavaScript, HTML, and CSS. </p>
+            <h1 id="left-title">The Hush Puppy Co</h1>
+            
+            <p id="left-label">A fully functional eCommerce site and blog for owners of dogs with Separation Anxiety, built with the MERN stack. </p>
 
-                <ul>
-                  <li><a href="https://github.com/Hteasdell44/wall-ball" target="_blank" rel="noreferrer">Github Repo</a></li>
-                  <li><a href="https://hteasdell44.github.io/wall-ball/" target="_blank" rel="noreferrer">Deployed Application</a></li>
-                </ul>
+            <ul>
+              <li><a href="https://github.com/Hteasdell44/hush-puppy-co" target="_blank" rel="noreferrer">Github Repo</a></li>
+              <li><a href="https://the-hush-puppy-co.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
+            </ul>
 
-          </div>
+        </div>
 
       </div> )}
 
@@ -258,7 +265,7 @@ export default function Projects() {
           <div id="projects-right">
 
             <a href="https://hteasdell44.github.io/weather-forecast-dashboard/" target="_blank" rel="noreferrer">
-              <img src={forecastPng} alt="" id="forecast-img"/>
+              <img src={forecastMobilePng} alt="" id="forecast-img"/>
             </a>
 
      
@@ -280,7 +287,7 @@ export default function Projects() {
           <div id="projects-left">
 
               <a href="https://hteasdell44.github.io/coding-assessment/" target="_blank" rel="noreferrer">
-                  <img src={gauntletPng} alt=""/>
+                  <img src={gauntletMobilePng} alt=""/>
               </a>
 
                 <h1 id="left-title">The Coding Gauntlet</h1>
@@ -301,7 +308,7 @@ export default function Projects() {
           <div id="projects-right">
 
             <a href="https://express-note-taker-4.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img src={noteTakerPng} alt="" id="forecast-img"/>
+              <img src={noteTakerMobilePng} alt="" id="forecast-img"/>
             </a>
 
      

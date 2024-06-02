@@ -11,9 +11,9 @@ export default function About() {
 
       <div id="about">
 
-          <p>I'm a 22 year old Web Developer from Charlotte, NC.</p>
-          <p>I have been building eCommerce stores with Shopify, WordPress, and Webflow for 4 years.</p>
-          <p>I recently completed the Coding Bootcamp At UNCC, and look to join a team where I can continue sharpening my skills programming throughout the stack.</p>
+          <p>I'm a 23 year old Software Engineer from Charlotte, NC.</p>
+          <p>I have been building web applications with numerous frontend and backend frameworks for over 4 years.</p>
+          <p>I recently obtained my B.S in Computer Science, and look to join a team where I can continue sharpening my skills programming throughout the stack.</p>
           <p>When I'm not working, you can find me fishing, making beats, gardening, or hanging out with my dog, Deuce!</p>
 
       </div>
