@@ -60,7 +60,7 @@ export default function Home() {
 
               <div id="hero-button-holder">
 
-                  <a href="https://drive.google.com/file/d/1gvDsjlu0chRww5EO79JnesYD-FAmijwD/view?usp=drive_link" target="_blank" rel="noreferrer">Resumé</a>
+                  <a href="https://drive.google.com/file/d/1s505Or_L0PzRk8xWMClC4tdWtzZ4gRAM/view?usp=sharing" target="_blank" rel="noreferrer">Resumé</a>
       
                   <a href="https://www.linkedin.com/in/hteasdell" target="_blank" rel="noreferrer">
                       LinkedIn

@@ -82,7 +82,7 @@ export default function Projects() {
 
           <div id="projects-left">
 
-              <a href="https://ht-jobs-4a553258d208.herokuapp.com/" target="_blank" rel="noreferrer">
+              <a href="https://ht-job-board-ec3ceab20798.herokuapp.com/" target="_blank" rel="noreferrer">
                   <img src={htjobboardPng} alt=""/>
               </a>
 
@@ -92,14 +92,14 @@ export default function Projects() {
 
                 <ul>
                   <li><a href="https://github.com/Hteasdell44/ht-job-board" target="_blank" rel="noreferrer">Github Repo</a></li>
-                  <li><a href="https://ht-jobs-4a553258d208.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
+                  <li><a href="https://ht-job-board-ec3ceab20798.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
                 </ul>
 
           </div>
 
           <div id="projects-right" >
 
-            <a href="https://hawkeye-student-data-portal-32f19e354af5.herokuapp.com/" target="_blank" rel="noreferrer">
+            <a href="https://hawkeye-student-portal-f159fc161d0f.herokuapp.com/" target="_blank" rel="noreferrer">
               <img src={hawkeyePng} alt="" id="forecast-img"/>
             </a>
 
@@ -110,7 +110,7 @@ export default function Projects() {
 
                 <ul>
                   <li><a href="https://github.com/Hteasdell44/hawkeye-student-data-portal" target="_blank" rel="noreferrer">Github Repo</a></li>
-                  <li><a href="https://hawkeye-student-data-portal-32f19e354af5.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
+                  <li><a href="https://hawkeye-student-portal-f159fc161d0f.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Application</a></li>
                 </ul>
 
           </div>
